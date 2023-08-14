@@ -1,3 +1,7 @@
+  *{
+    padding: 0;
+    margin: 0;
+  }
   /*  CSS IMPORTS */
   @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Chela+One&family=Cormorant+Garamond:ital@1&family=EB+Garamond&family=Lilita+One&family=Lugrasimo&family=Roboto+Mono&display=swap');
 
@@ -103,3 +107,38 @@
       background-color: white;
       border-radius: 10px;
   }
+
+  /* Media Querry */
+  @media (max-width: 576px) {
+.head{
+    margin-top: 15%;
+    margin-left: 40px;
+}
+/* .i>{
+  height:50px ;
+  width: 30px;
+ color: orange;
+    
+} */
+span{
+    font-size: 20px;
+    font-family: 'Libre Baskerville', serif;
+}
+#head{
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+    }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

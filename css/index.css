@@ -110,32 +110,106 @@
 
   /* Media Querry */
   @media (max-width: 576px) {
-.head{
-    margin-top: 15%;
-    margin-left: 40px;
+.container{
+    /* margin-top: 45px;
+    margin-left: 40px; */
 }
-/* .i>{
-  height:50px ;
-  width: 30px;
- color: orange;
-    
-} */
+
 span{
     font-size: 20px;
     font-family: 'Libre Baskerville', serif;
 }
 #head{
+    
     font-weight: bolder;
     font-size: 30px;
-
+    display:flex;
+    /* overflow: hidden; */
+}
+/* .head01{
+    margin-top: 30px;
+} */
+#image01{
+    margin-top: 40px;
+    height:300px ;
+    width:300px ;
+}
+small{
+    text-indent: 5%;
+    line-height: 40px;
+    font-size: 15px;
+    /* display: flex; */
+    font-family: 'Caprasimo';
+        font-weight: 800;
+}
+i ,#icon{
+    color: orange;
+    font-size: 30px;
+}
+h4{
+    margin-top: 30px;
+    margin-left: 10%;
+    border: 0px solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: 20%;
+    /* color: black; */
+    background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
+    
 }
     }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .container{
+        margin-top: 15%;
+        margin-left: 40px;
+    }
+    /* .i>{
+      height:50px ;
+      width: 30px;
+     color: orange;
+        
+    } */
+    span{
+        font-size: 20px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #head{
+        font-weight: bolder;
+        font-size: 30px;
+    overflow: hidden;
+
+    
+    }
+}
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { }
 
 /* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
+@media (max-width: 992px) { 
+    .container{
+        margin-top: 10%;
+        margin-left: 40px;
+    }
+    /* .i>{
+      height:50px ;
+      width: 30px;
+     color: orange;
+        
+    } */
+    span{
+        font-size: 20px;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #head{
+        font-weight: bolder;
+        font-size: 30px;
+        overflow: hidden;
+         
+    }
+ }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {  }

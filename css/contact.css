@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.about-holder {
+    margin-top: 60px;
+    height: 65svh;
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(../assest/img/contact_back.jpg);
+    /* background-image: url(https://www.joshwcomeau.com/_next/image/?url=%2Fimages%2Fshadow-palette%2Fslopes.png&w=3840&q=75); */
+    /* background-image: url(https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+    /* background-image: url(https://images.unsplash.com/photo-1579567761406-4684ee0c75b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80); */
+}
+
+.text-holder {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65svh;
+    width: 100%;
+    background: rgba(14, 14, 14, 0.14);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    font-weight: bolder;
+}
+
+.text-holder h1 {
+    font-family: 'EB Garamond', serif;
+    height: max-content !important;
+    height: max-content;
+    font-size: 5rem;
+    margin-top: 3rem;
+   color:black;
+          
+        
+}
+
+.text-holder span {
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    display: block;
+    color:black;
+}
+
+.text-holder i {
+    color:black;
+
+}
+

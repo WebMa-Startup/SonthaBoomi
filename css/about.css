@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Amarante&family=Aref+Ruqaa&family=Asap:ital,wght@1,300&family=Butcherman&family=Emblema+One&family=Ewert&family=Fondamento&family=Gotu&family=IM+Fell+DW+Pica+SC&family=Julee&family=Metal+Mania&family=Overlock+SC&family=Rampart+One&family=Rye&family=Sancreek&family=Sansita+Swashed&family=Vollkorn+SC:wght@600;700&family=Ysabeau+SC:wght@400;500&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+.about-holder {
+    margin-top: 60px;
+    height: 65svh;
+    background:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(../assest/img/about_back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-origin: border-box;
+}
+
+.text-holder {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65svh;
+    width: 100%;
+    background: rgba(14, 14, 14, 0.14);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    font-weight: bolder;
+}
+
+.text-holder h1 {
+    font-family: 'EB Garamond', serif;
+    height: max-content !important;
+    height: max-content;
+    font-size: 5rem;
+    margin-top: 3rem;
+   color:black;
+          
+        
+}
+
+.text-holder span {
+    font-family: 'EB Garamond', serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    margin-top: 1.5rem;
+    display: block;
+    color:black;
+}
+
+.text-holder i {
+    color:black;
+
+}
+
+/* about main start */
+.about-first{
+    margin-top: 3rem;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sub-tittle{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: 'Asap', sans-serif;
+    left: 10px;
+    font-weight: 200;
+}
+.main-tittle{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.our-content{
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-indent: 30px;
+    text-align: justify;
+    margin-top: 30px;
+}
+.heading-design{
+    gap: 5px;
+    left: 5px;
+    position: relative;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+.line{
+    width: 80px;
+    position: absolute;
+    right: 65%;
+    top:2px;
+    background-color: red;
+    border-radius: 2px;
+    height: 5px;
+}
+.side-color {
+    padding: 25px;
+    margin: 20px 0;
+    background: #f9f9f9;
+    position: relative;
+    border-left: 3px solid #ffb600;
+    padding-left: 40px;
+  }
+  
+  .side-color.text-center {
+    border-top: 3px solid #ffb600;
+    border-left: 0;
+    padding-left: 25px;
+  }
+  
+  .side-color.text-center:before {
+    left: 50%;
+    top: 10px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .side-color.text-right {
+    border-right: 3px solid #ffb600;
+    padding-right: 40px;
+    border-left: 0;
+    padding-left: 25px;
+  }
+  
+  .side-color.text-right:before {
+    left: auto;
+    right: 5px;
+  }
+  
+  .side-color:before {
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-size: 28px;
+    color: #E5E5E5;
+    top: 5px;
+    left: 5px;
+    font-weight: 700;
+    z-index: 0;
+  }
+  
+  .side-color .content-quouts {
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+    z-index: 1;
+    font-style: italic;
+    margin-bottom: 0;
+  }
+  .explore{
+    border: 1px solid black;
+    padding: 4px;
+    margin-bottom: 15px;
+    color: forestgreen;
+    position: relative;
+    left: 60%;
+    font-size: 19px;
+    border-radius: 12px;
+  }
+  /* colm secound */
+  .colm-secoud{
+    margin: 20px 0;
+  }
+  .image-style{
+    height: 300px;
+    border-radius: 8px;
+  }
+  .inner-img{
+    /* From https://css.glass */
+background: rgba(31, 31, 31, 0.14);
+border-radius: 5px;
+width: 100%;
+text-transform: uppercase;
+font-size: 19px;
+margin: 0 auto;
+text-align: center;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.7px);
+-webkit-backdrop-filter: blur(3.7px);
+border: 1px solid rgba(31, 31, 31, 0.05);
+}
+
+/*                            about fouder content is start                             */
+.about-founder{
+    margin: 30px 0;
+    background-color: rgb(255, 255, 255);
+}
+.founder-img{
+    text-align: center;
+}
+.founder-setails-head{
+    margin: 20px 0;
+    font-weight: 700;
+    position: relative;
+    left: 20px;
+    width: 90%;
+    font-size: 30px;
+}
+.founder-content{
+    font-size: 20px;
+    /* line-height: 28px; */
+    text-transform: capitalize;
+    position: relative;
+    left: 40px;
+    width: 90%;
+    letter-spacing: 1px;
+}
+.ceo-name{
+  position: relative;
+  left: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.position-of-company{
+  position: relative;
+  left: 20px;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+/* <!--                       about why choose content is start                   --> */
+.why-choose-us{
+  margin: 30px 0;
+}
+.question{
+  display: flex;
+}
+.faq{
+  margin-top: 12px;
+}
+.question>h4{
+  font-size: 17px;
+  padding: 10px;
+}
+.answer>h3{
+  font-size: 15px;
+  padding: 10px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 21px;
+  text-indent: 20px;
+}
+
+.progress-all{
+  margin:30px 0;
+}
+.lsit-progress{
+  margin: 10px 0;
+}

@@ -186,6 +186,10 @@ h4{
         font-family: 'Caprasimo';
             font-weight: 800;
     }
+    span{
+        font-size: 20px;
+        font-family: 'Libre Baskerville', serif;
+    }
     #head{
         font-weight: bolder;
         font-size: 30px;
@@ -201,6 +205,17 @@ h4{
         margin-left: 20px; */
         height:300px ;
         width:300px ;
+    }
+    h4{
+        margin-top: 30px;
+        margin-left: 10%;
+        border: 0px solid;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20%;
+        /* color: black; */
+        background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
+        
     }
 }
 
@@ -221,6 +236,10 @@ h4{
         font-size: 20px;
         font-family: 'Libre Baskerville', serif;
     } */
+    span{
+        font-size: 20px;
+        font-family: 'Libre Baskerville', serif;
+    }
     small{
         text-indent: 5%;
         line-height: 40px;
@@ -233,7 +252,28 @@ h4{
         font-weight: bolder;
         font-size: 30px;
         overflow: hidden;
-         
+    }
+    i ,#icon{
+        /* margin-left: 20%; */
+        color: orange;
+        font-size: 30px;
+    }
+    #image01{
+        /* margin-top: 40px;
+        margin-left: 20px; */
+        height:300px ;
+        width:300px ;
+    }
+    h4{
+        margin-top: 30px;
+        margin-left: 10%;
+        border: 0px solid;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20%;
+        /* color: black; */
+        background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
+        
     }
  }
 
@@ -249,15 +289,44 @@ h4{
      color: orange;
         
     } */
-    span{
-        font-size: 20px;
+    span ,.real{
+        font-size: 40px;
         font-family: 'Libre Baskerville', serif;
     }
     #head{
         font-weight: bolder;
+        font-size: 50px;
+        overflow: hidden;    
+    }
+    i ,#icon{
+        /* margin-left: 20%; */
+        color: orange;
         font-size: 30px;
-        overflow: hidden;
-         
+    }
+    #image01{
+        margin-top: -25%;
+        margin-left: 60%;
+        height:350px ;
+        width:400px ;
+    }
+    small{
+        text-indent: 5%;
+        line-height: 40px;
+        font-size: 20px;
+        display: flex;
+        font-family: 'Caprasimo';
+            font-weight: 800;
+    }
+    h4{
+        margin-top: 30px;
+        margin-left: 10%;
+        border: 0px solid;
+        padding: 10px;
+        border-radius: 10px;
+        width: 50px;
+        /* color: black; */
+        background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
+        
     }
  }
 
@@ -280,7 +349,148 @@ h4{
     #head{
         font-weight: bolder;
         font-size: 30px;
-        overflow: hidden;
-         
+        overflow: hidden;    
     }
+    i ,#icon{
+        /* margin-left: 20%; */
+        color: orange;
+        font-size: 30px;
+    }
+    #image01{
+        /* margin-top: 40px;
+        margin-left: 20px; */
+        height:300px ;
+        width:300px ;
+    }
+    h4{
+        margin-top: 30px;
+        margin-left: 10%;
+        border: 0px solid;
+        padding: 10px;
+        border-radius: 10px;
+        width: 20%;
+        /* color: black; */
+        background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
+        
+    }
+ }
+ /* Social Icons */
+ @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ *:focus,
+ *:active {
+     outline: none !important;
+     -webkit-tap-highlight-color: transparent;
+ }
+
+ html,
+ body {
+     display: grid;
+     height: 100%;
+     width: 100%;
+     font-family: "Poppins", sans-serif;
+     place-items: center;
+     background: linear-gradient(315deg, #ffffff, #d7e1ec);
+ }
+
+ .wrapper {
+     display: inline-flex;
+     list-style: none;
+ }
+
+ .wrapper .icon {
+     position: relative;
+     background: #ffffff;
+     border-radius: 50%;
+     padding: 15px;
+     margin: 10px;
+     width: 50px;
+     height: 50px;
+     font-size: 18px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+     cursor: pointer;
+     transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+
+ .wrapper .tooltip {
+     position: absolute;
+     top: 0;
+     font-size: 14px;
+     background: #ffffff;
+     color: #ffffff;
+     padding: 5px 8px;
+     border-radius: 5px;
+     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+     opacity: 0;
+     pointer-events: none;
+     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+
+ .wrapper .tooltip::before {
+     position: absolute;
+     content: "";
+     height: 8px;
+     width: 8px;
+     background: #ffffff;
+     bottom: -3px;
+     left: 50%;
+     transform: translate(-50%) rotate(45deg);
+     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+ }
+
+ .wrapper .icon:hover .tooltip {
+     top: -45px;
+     opacity: 1;
+     visibility: visible;
+     pointer-events: auto;
+ }
+
+ .wrapper .icon:hover span,
+ .wrapper .icon:hover .tooltip {
+     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+ }
+
+ .wrapper .facebook:hover,
+ .wrapper .facebook:hover .tooltip,
+ .wrapper .facebook:hover .tooltip::before {
+     background: #1877F2;
+     color: #ffffff;
+ }
+
+ .wrapper .twitter:hover,
+ .wrapper .twitter:hover .tooltip,
+ .wrapper .twitter:hover .tooltip::before {
+     background: #1DA1F2;
+     color: #ffffff;
+ }
+
+ .wrapper .instagram:hover,
+ .wrapper .instagram:hover .tooltip,
+ .wrapper .instagram:hover .tooltip::before {
+     background: #E4405F;
+     color: #ffffff;
+ }
+
+ .wrapper .github:hover,
+ .wrapper .github:hover .tooltip,
+ .wrapper .github:hover .tooltip::before {
+     background: #333333;
+     color: #ffffff;
+ }
+
+ .wrapper .youtube:hover,
+ .wrapper .youtube:hover .tooltip,
+ .wrapper .youtube:hover .tooltip::before {
+     background: #CD201F;
+     color: #ffffff;
  }

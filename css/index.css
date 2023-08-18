@@ -139,7 +139,7 @@ span{
 }
 .main-image{
     
-    margin-top: -20%;
+    margin-top: -15%;
     max-width: 1200px;
     width:300px;
     float: right;
@@ -173,15 +173,39 @@ i ,#icon{
     color: orange;
     font-size: 30px;
 }
-h4{
-    margin-top: 30px;
-    margin-left: 10%;
-    border: 0px solid;
-    padding: 10px;
-    border-radius: 10px;
-    width: 20%;
-    /* color: black; */
-    background-image: linear-gradient(to right top, #2faec0, #009fd1, #008de1, #0074e4, #6751d4);
-    
+.social-icons a{
+    text-decoration: none;
+    top: 50%;
 }
-
+.social-icons #twitter {
+    color:blue;
+    /* text-decoration: none; */
+    /* background-color: blue;
+    border-radius: 50%; */
+    font-size: 30px;
+}
+.social-icons #facebook{
+    color:blue;
+    /* background-color: blue;
+    border-radius: 50%; */
+    font-size: 30px;
+}.social-icons #youtube{
+    color:red;
+    /* background-color: blue;
+    border-radius: 50%; */
+    font-size: 30px;
+}.social-icons #instagram{
+    color:rgb(216, 28, 160);
+    /* background-color: blue;
+    border-radius: 50%; */
+    font-size: 30px;
+}
+.social-icons #whatsapp{
+    color:green;
+    /* background-color: blue;
+    border-radius: 50%; */
+    font-size: 30px;
+}
+header{
+    background-image: linear-gradient(to right top, #aab3c0, #b2c4cb, #c0d4d3, #d4e3da, #ecf0e3);
+}

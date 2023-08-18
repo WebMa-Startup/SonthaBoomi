@@ -133,7 +133,7 @@ span{
     justify-content: center;
     max-height: 1500px;
     /* height: 700px; */
-    padding: 100px 0px 0px 50px;
+    padding: 80px 0px 0px 50px;
     /* margin-top: 30%;
     margin-left: 10%; */
 }
@@ -143,6 +143,9 @@ span{
     max-width: 1200px;
     width:300px;
     float: right;
+    column-count: 0;
+    /* column-width: 50px; */
+    
   
 }
 #image01{

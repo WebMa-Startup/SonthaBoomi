@@ -10,6 +10,10 @@
   box-sizing: border-box;
   
 }
+
+html{
+  overflow-x: hidden;
+}
 a{
   text-decoration:none;
 }
@@ -234,21 +238,22 @@ nav {
 }
 
 .features {
-  text-align: center;
+  /* text-align: center; */
   margin-top: 2rem;
 }
 .feature-list{
   margin-block:1.8rem;
 }
 .feature-list span{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   margin-left: 1rem;
  
 }
 .feature-list i{
   font-size:1.6rem;
-  padding:.6rem;
+  padding-inline:.5rem;
+  padding-block:.3rem;
   background: rgba(255, 255, 255, 0.21);
   backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(5.3px);
@@ -259,3 +264,193 @@ nav {
   border-radius:10px;
 }
 
+.section-content-02{
+  margin-bottom: 4rem;
+}
+
+
+/* todo    section-03 css    */
+
+.section-img-03{
+  position:relative;
+}
+
+.section-img-03 img{
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5.3px);
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #4f4e50;
+  border-radius:10px; 
+}
+.section-img-03 #sale{
+  position: absolute;
+  right: 0;
+  top: 1rem;
+  left: 75%;
+  font-weight: bolder;
+  background-color: violet;
+  border-top-right-radius:10px;
+  border-bottom-right-radius: 10px;
+  padding-left: .4rem;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
+}
+
+#price{
+  font-weight: 600;
+  margin-top:2rem;
+}
+#property-name{
+  font-weight: 600;
+}
+#property-content{
+  font-weight: 550;
+}
+
+.property-detail-02{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.property-detail-02 {
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5.3px);
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #4f4e50;
+  border-radius:10px;
+  margin-bottom: 1rem; 
+}
+.detail i{
+  font-weight: 800;
+}
+.detail span{
+  font-weight: 800;
+}
+.detail p{
+  margin-bottom:.5rem !important;
+  font-weight: 600;
+}
+.btn{
+ margin-left: 0;
+ padding: 0;
+ margin-bottom: 2rem;
+}
+.btn button {
+  border: none;
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5.3px);
+  margin-top: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #4f4e50;
+  border-radius:7px;
+  padding-inline: 2rem;
+}
+.btn a{
+  color: black;
+  font-weight: 600;
+}
+
+
+/*  todo      section 4  start    */
+
+.section-04{
+  margin-bottom: 5rem;
+}
+
+.aminities-detail{
+  width: 45%;
+  margin-top: 1rem;
+  margin-left: .9rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  position:relative;
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #4f4e50;
+}
+.aminities-detail i{
+  margin-block: 1rem;
+  font-size: 1.5rem;
+}
+
+.aminities-detail p{
+  margin-bottom: 2rem !important;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.aminities-detail  .arrow{
+  position:absolute;
+  left:4rem;
+  top: 4.5rem;
+  padding-inline: .5rem;
+  padding-block: .1rem;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.21);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(5.3px);
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 1px #4f4e50;
+}
+
+/* todo   footer Seciton CSS */
+
+.footer .logo{
+  font-weight: bolder;
+  font-size:1.7rem;
+}
+
+.about{
+  text-align: justify;
+}
+
+.address i{
+  font-size:1.2rem;
+}
+
+.address span{
+  margin-left: .8rem;
+  font-weight: 600;
+}
+
+.footer-social{
+  text-align: center;
+}
+.links p{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom:0 !important;
+  padding-bottom: .5rem;
+  border-bottom: 2px black solid ;
+  display: inline;
+}
+.links a{
+  color: black;
+  margin-top: .5rem;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0 !important;
+}
+.links div{
+  margin-top: .5rem;
+  text-align: center;
+}
+.links div a {
+  margin-left: .6rem;
+}

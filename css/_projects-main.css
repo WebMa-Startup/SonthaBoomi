@@ -1,5 +1,227 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+
+
+/* *********************************************** */
+
+nav {
+    display: flex !important;
+
+    justify-content: center !important;
+}
+
+/*                            navbar CSS                    */
+.navbar-brand .brand-img {
+
+    height: 2.3em;
+    width: 9em;
+}
+
+.navbar-brand {
+    margin-right: 0 !important;
+    font-weight: bolder;
+}
+
+.nav-container button {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.nav-container {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(5.3px);
+    -webkit-backdrop-filter: blur(5.3px);
+    margin-top: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 15px 1px  #ffdf00; */
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+    position: fixed;
+    position: fixed;
+    z-index: 999999;
+    top: 0;
+    width: 90%;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.navbar-link .nav-link {
+    /* color: white !important; */
+    color: black;
+    font-family: 'Bacasime Antique', serif;
+    /* font-family: 'VT323', monospace; */
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.navbar-nav a {
+    text-align: center;
+}
+
+.navbar-nav a:hover {
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* todo                          End Of Nav CSS 
+
+
+  /* todo   footer Seciton CSS */
+
+.footer .logo {
+    font-weight: bolder;
+    font-size: 1.7rem;
+}
+
+.about {
+    text-align: justify;
+}
+
+.address i {
+    font-size: 1.2rem;
+}
+
+.address span {
+    margin-left: .8rem;
+    font-weight: 600;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.links p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    padding-bottom: .5rem;
+    border-bottom: 2px black solid;
+    display: inline;
+}
+
+.links a {
+    color: black;
+    margin-top: .5rem;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0 !important;
+}
+
+.links div {
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.links div a {
+    margin-left: .6rem;
+}
+
+/* todo    end of footer CSS      */
+
+
+
+/* todo     header-div CSS      */
+
+.header-div {
+    /* height: 50vh; */
+    margin-top: 3.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    background-image: url(../assest/img/undraw_launching_re_tomg.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header p {
+    font-size: 2rem;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+    text-align: center;
+}
+
+
+/* todo   section project card holder css */
+
+.project-img img {
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+}
+
+.description h3 {
+    margin: 1rem 0rem;
+    font-weight: 600;
+}
+
+.description p {
+    text-align: justify;
+}
+
+/* todo      project Descrption css */
+.project-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+    padding: .6rem 0;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-details p{
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+.project-details span{
+    font-weight: 600;
+}
+
+.expand{
+    width: 30%;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(5.3px);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+    position:relative;
+    float: right;
+    padding-block: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.expand button {
+    border: none;
+    background: transparent;
 }

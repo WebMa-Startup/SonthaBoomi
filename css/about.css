@@ -36,9 +36,11 @@
     height: max-content;
     font-size: 5rem;
     margin-top: 3rem;
-   color:black;
-          
-        
+   /* color:rgb(255, 255, 255); */
+   /* background: #DC143C; */
+   background: linear-gradient(to right, #DC143C 0%, #FFBA00 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
 }
 
 .text-holder span {
@@ -47,11 +49,11 @@
     font-size: 1.3rem;
     margin-top: 1.5rem;
     display: block;
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 .text-holder i {
-    color:black;
+    color:#FFBA00;
 
 }
 
@@ -72,38 +74,30 @@
     font-size: 2rem;
     font-weight: 500;
     text-transform: capitalize;
+    background: linear-gradient(to right, #DC143C 0%, #FFBA00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .our-content{
     font-size: 17px;
     letter-spacing: 1px;
-    text-indent: 30px;
+    text-indent: 40px;
     text-align: justify;
     margin-top: 30px;
+}
+.our-content::first-letter{
+  font-size: 22px;
+  color: #DC143C;
 }
 .heading-design{
     gap: 5px;
     left: 5px;
     position: relative;
 }
-.circle{
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 5px;
-}
-.line{
-    width: 80px;
-    position: absolute;
-    right: 65%;
-    top:2px;
-    background-color: red;
-    border-radius: 2px;
-    height: 5px;
-}
 .side-color {
     padding: 25px;
     margin: 20px 0;
-    background: #f9f9f9;
+    background: #fafafa;
     position: relative;
     border-left: 3px solid #ffb600;
     padding-left: 40px;
@@ -155,14 +149,21 @@
     margin-bottom: 0;
   }
   .explore{
-    border: 1px solid black;
-    padding: 4px;
+    border: 1px solid #FFBA00;
+    padding: 7px;
     margin-bottom: 15px;
-    color: forestgreen;
+    color: #DC143C;
     position: relative;
-    left: 60%;
-    font-size: 19px;
-    border-radius: 12px;
+    font-size: 21px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+  .explore:hover{
+    background-color: #DC143C;
+    color: white;
+    border: none;
+    width: 130px;
+    box-shadow: inset 120px 0 1px #FFBA00;
   }
   /* colm secound */
   .colm-secoud{
@@ -174,12 +175,13 @@
   }
   .inner-img{
     /* From https://css.glass */
-background: rgba(31, 31, 31, 0.14);
+background:#ffbb002f;
 border-radius: 5px;
 width: 100%;
 text-transform: uppercase;
 font-size: 19px;
 margin: 0 auto;
+color: #DC143C;
 text-align: center;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(3.7px);
@@ -189,7 +191,6 @@ border: 1px solid rgba(31, 31, 31, 0.05);
 
 /*                            about fouder content is start                             */
 .about-founder{
-    margin: 30px 0;
     background-color: rgb(255, 255, 255);
 }
 .founder-img{
@@ -200,33 +201,86 @@ border: 1px solid rgba(31, 31, 31, 0.05);
     font-weight: 700;
     position: relative;
     left: 20px;
-    width: 90%;
+    width:95%;
     font-size: 30px;
 }
 .founder-content{
-    font-size: 20px;
+    font-size: 19px;
     /* line-height: 28px; */
     text-transform: capitalize;
     position: relative;
-    left: 40px;
+    left: 45px;
     width: 90%;
     letter-spacing: 1px;
+}
+.founder-content::first-letter{
+  font-size: 24px;
+  color: #DC143C;
 }
 .ceo-name{
   position: relative;
   left: 20px;
   font-size: 2rem;
+  background: linear-gradient(to right, #DC143C 0%, #FFBA00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
 .position-of-company{
   position: relative;
   left: 20px;
-  font-weight: 200;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 19px;
 }
 
 /* <!--                       about why choose content is start                   --> */
-.why-choose-us{
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.faq {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+  margin: 10px 0;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question::after {
+  content: "\002B";
+  font-size: 2.2rem;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 10px 10px;
+  line-height: 1.5rem;
+}
+
+/* .why-choose-us{
   margin: 30px 0;
 }
 .question{
@@ -235,6 +289,7 @@ border: 1px solid rgba(31, 31, 31, 0.05);
 .faq{
   margin-top: 12px;
 }
+.f
 .question>h4{
   font-size: 17px;
   padding: 10px;
@@ -245,12 +300,25 @@ border: 1px solid rgba(31, 31, 31, 0.05);
   text-align: justify;
   letter-spacing: 1px;
   line-height: 21px;
-  text-indent: 20px;
-}
+  text-indent: 40px;
+} */
 
 .progress-all{
   margin:30px 0;
 }
 .lsit-progress{
-  margin: 10px 0;
+  margin-bottom: 25px;
+}
+
+.client-name{
+  
+}
+.client-msg{
+  /* text-align: center; */
+  background: linear-gradient(to right, #DC143C 0%, #FFBA00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.client-review{
+  /* text-align: center; */
 }

@@ -227,6 +227,21 @@ nav {
 }
 
 /* todo      expand section css    */
+.project-expand-holder {
+    position:absolute;
+    top: 5rem;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 1px #2c2c2c;
+    
+}
+
+#expand-div{
+    display: none;
+}
 .expand-project-name{
     text-align: center;
     font-weight: bolder;
@@ -256,4 +271,10 @@ nav {
 .download-01 p {
  font-weight: bold;
  margin-bottom: 0em;
+}
+.exit{
+    display:inline;
+    position: absolute;
+    top: 0;
+    left:90%;
 }
